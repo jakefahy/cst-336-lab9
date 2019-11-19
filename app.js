@@ -142,7 +142,7 @@ function dbConnection(){
    let conn = mysql.createConnection({
                  host: "thzz882efnak0xod.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
                  user: "afpyfp5fd1jlmcej",
-             password: "a3uowmu3gzhpthov",
+             password: "knlashfisxz2s5sr",
              database: "e5pm882qlvrya6un"
        }); //createConnection
 
