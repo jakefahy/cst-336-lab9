@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Famous Quote Search </title>
+    </head>
+    <body>
+        
+        <h1> Famous Quote Search </h1>
+
+        <form action="/quotes">
+   
+            Keyword: <input type="text" name="keyword">
+            
+            Category: 
+            <select name="category">
+                <option value=""> Select One </option>
+                
+                <% categories.forEach(function(i){ %>
+                
+                    <option> <%=i.category%>  </option>
+                
+                <% }); %>
+                
+            </select>
+            
+            Gender:
+            <select name="gender">
+                <option value="">Select One</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+            </select>
+            
+            
+          
+            
+            <button> Search! </button>
+
+        </form>
+
+    </body>
+</html>
